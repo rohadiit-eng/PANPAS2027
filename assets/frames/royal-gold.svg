@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<defs>
+<linearGradient id="au" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a6a1f"/><stop offset=".25" stop-color="#f6e08b"/><stop offset=".5" stop-color="#c9a13b"/><stop offset=".75" stop-color="#f6e08b"/><stop offset="1" stop-color="#8a6a1f"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a1233"/><stop offset="1" stop-color="#2b0618"/></linearGradient></defs>
+
+<path d="M0 0H900V1200H0Z M70 70H830A0 0 0 0 1 830 70V1060A0 0 0 0 1 830 1060H70A0 0 0 0 1 70 1060V70A0 0 0 0 1 70 70Z" fill="url(#bg)" fill-rule="evenodd"/>
+<rect x="24" y="24" width="852" height="1152" fill="none" stroke="url(#au)" stroke-width="4"/>
+<rect x="36" y="36" width="828" height="1128" fill="none" stroke="url(#au)" stroke-width="1.5"/>
+<rect x="70" y="70" width="760" height="990" fill="none" stroke="url(#au)" stroke-width="8"/>
+<rect x="84" y="84" width="732" height="962" fill="none" stroke="url(#au)" stroke-width="1.5" opacity=".85"/>
+<path d="M70 44L96 70L70 96L44 70Z" fill="url(#au)" stroke="#2b0618" stroke-width="2"/><path d="M830 44L856 70L830 96L804 70Z" fill="url(#au)" stroke="#2b0618" stroke-width="2"/>
+<path d="M70 1034L96 1060L70 1086L44 1060Z" fill="url(#au)" stroke="#2b0618" stroke-width="2"/><path d="M830 1034L856 1060L830 1086L804 1060Z" fill="url(#au)" stroke="#2b0618" stroke-width="2"/>
+<path d="M450 35L462 47L450 59L438 47Z" fill="url(#au)" stroke="none" stroke-width="0"/><path d="M47 553L59 565L47 577L35 565Z" fill="url(#au)" stroke="none" stroke-width="0"/><path d="M853 553L865 565L853 577L841 565Z" fill="url(#au)" stroke="none" stroke-width="0"/>
+<g stroke="url(#au)" stroke-width="2.5">
+  <line x1="100" y1="1118" x2="240" y2="1118"/><line x1="660" y1="1118" x2="800" y2="1118"/>
+</g>
+<path d="M92 1110L100 1118L92 1126L84 1118Z" fill="url(#au)" stroke="none" stroke-width="0"/><path d="M808 1110L816 1118L808 1126L800 1118Z" fill="url(#au)" stroke="none" stroke-width="0"/>
+<path d="M450 1167L459 1176L450 1185L441 1176Z" fill="url(#au)" stroke="none" stroke-width="0"/>
+</svg>

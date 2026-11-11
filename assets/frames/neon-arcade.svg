@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a0a5e"/><stop offset="1" stop-color="#12041f"/></linearGradient>
+<linearGradient id="n" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff3d81"/><stop offset="1" stop-color="#2de2e6"/></linearGradient>
+<filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+
+<path d="M0 0H900V1200H0Z M96 60H804A36 36 0 0 1 840 96V1014A36 36 0 0 1 804 1050H96A36 36 0 0 1 60 1014V96A36 36 0 0 1 96 60Z" fill="url(#g)" fill-rule="evenodd"/>
+<rect x="20" y="20" width="860" height="1160" rx="40" fill="none" stroke="#2de2e6" stroke-width="4" filter="url(#glow)" opacity=".9"/>
+<path d="M96 60H804A36 36 0 0 1 840 96V1014A36 36 0 0 1 804 1050H96A36 36 0 0 1 60 1014V96A36 36 0 0 1 96 60Z" fill="none" stroke="url(#n)" stroke-width="8" filter="url(#glow)"/>
+<circle cx="60" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="100" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="140" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="180" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="220" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="260" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="300" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="340" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="380" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="420" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="460" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="500" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="540" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="580" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="620" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="660" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="700" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="740" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="780" cy="1172" r="4" fill="#2de2e6" opacity=".8"/><circle cx="820" cy="1172" r="4" fill="#2de2e6" opacity=".8"/>
+<path d="M60 24L69.36 50.64L96 60L69.36 69.36L60 96L50.64 69.36L24 60L50.64 50.64Z" fill="#ffd23f" filter="url(#glow)"/>
+<path d="M840 24L849.36 50.64L876 60L849.36 69.36L840 96L830.64 69.36L804 60L830.64 50.64Z" fill="#ffd23f" filter="url(#glow)"/>
+<path d="M60 1020L67.8 1042.2L90 1050L67.8 1057.8L60 1080L52.2 1057.8L30 1050L52.2 1042.2Z" fill="#ff3d81" filter="url(#glow)"/>
+<path d="M840 1020L847.8 1042.2L870 1050L847.8 1057.8L840 1080L832.2 1057.8L810 1050L832.2 1042.2Z" fill="#ff3d81" filter="url(#glow)"/>
+</svg>

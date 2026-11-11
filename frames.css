@@ -1,0 +1,73 @@
+/* Tambahan khusus mode frame (dimuat setelah style.css) */
+
+/* ruang untuk tombol orientasi (+46px dari nilai di style.css) */
+:root {
+  --chrome-h: calc(356px + env(safe-area-inset-top) + env(safe-area-inset-bottom));
+}
+
+/* thumbnail frame: latar gradien supaya bagian tengah yang transparan tetap terlihat jelas */
+.bg-item {
+  background: linear-gradient(135deg, #ffe3ec 0%, #c9f1f3 100%);
+}
+.bg-item img {
+  object-fit: cover;
+}
+
+/* ---------- pilihan orientasi ---------- */
+.orient-toggle {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  margin-top: 12px;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .1);
+  border: 2px solid rgba(255, 255, 255, .22);
+}
+.orient-btn {
+  min-height: 32px;
+  padding: 4px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--cream);
+  font-size: .8rem;
+  font-weight: 600;
+  transition: background .2s, color .2s, box-shadow .2s;
+}
+.orient-btn i { font-size: 1rem; line-height: 1; }
+.orient-btn.on {
+  background: var(--yellow);
+  color: var(--ink);
+  box-shadow: 0 3px 0 var(--pink);
+}
+.orient-btn:disabled { opacity: .35; }
+
+/* ---------- stage landscape ---------- */
+.stage.landscape {
+  aspect-ratio: 4 / 3;
+  width: min(calc(100% - 16px), calc((100dvh - var(--chrome-h)) * 1.3333));
+}
+.stage.swap { animation: stagein .35s ease-out; }
+@keyframes stagein {
+  from { opacity: .35; transform: scale(.94); }
+  to { opacity: 1; transform: none; }
+}
+
+/* thumbnail frame landscape lebih lebar, tinggi tetap agar daftar tidak "loncat" */
+.bg-picker[data-orient="landscape"] .bg-item {
+  width: 90px;
+  height: 68px;
+}
+
+/* hasil foto: bingkai sudah menyatu di gambar, jadi tampilkan lebih tegas */
+.photo-wrap img {
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage.swap { animation: none; }
+}
