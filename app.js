@@ -20,6 +20,11 @@ const FRAMES = [
     caption: { text: 'PANPAS 2027 - St. Bartolomeus', font: 'Fredoka', weight: 600, size: 54, maxW: 760, color: '#5b2a86', shadow: '#f3d77a', y: 1128 },
   },
   {
+    id: 'palma', name: 'Minggu Palma', orientation: 'portrait', src: 'assets/frames/Minggu-palma.png',
+    win: { x: 110, y: 80, w: 700, h: 1060 },
+    caption: { text: 'PANPAS 2027 - St. Bartolomeus', font: 'Fredoka', weight: 600, size: 54, maxW: 760, color: '#5b2a86', shadow: '#f3d77a', y: 1128 },
+  },
+  {
     id: 'polaroid', name: 'Polaroid', orientation: 'portrait', src: 'assets/frames/polaroid.svg',
     win: { x: 50, y: 50, w: 800, h: 940 },
     caption: { text: 'PANPAS 2027 - St. Bartolomeus', size: 45, color: '#ff3d81', shadow: '#ffd23f', y: 1112 },
