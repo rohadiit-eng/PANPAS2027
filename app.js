@@ -21,7 +21,7 @@ const FRAMES = [
   },
   {
     id: 'palma', name: 'Minggu Palma', orientation: 'portrait', src: 'assets/frames/Minggu-palma.png',
-    win: { x: 110, y: 80, w: 700, h: 1060 },
+    win: { x: 110, y: 80, w: 710, h: 1070 },
     caption: { text: 'PANPAS 2027 - St. Bartolomeus', font: 'Fredoka', weight: 600, size: 54, maxW: 760, color: '#5b2a86', shadow: '#f3d77a', y: 1128 },
   },
   {
